@@ -1,0 +1,72 @@
+body {
+  background-color: #8ecae6;
+  min-height: 70vh;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  color: #023047;
+  font-family: "Architects Daughter", cursive;
+  text-align: center;
+  font-size: 130%;
+}
+.container {
+  width: 100%;
+  height: auto;
+  background: #f1f5f8;
+  border-radius: 15px;
+  box-shadow: 4px 3px 7px 2px #00000040;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.heading h1 {
+  transform: rotate(-5deg);
+  padding: 0.3rem 3.2rem;
+  border-radius: 25% 25% 25% 55%/5% 55% 25% 55%;
+  background-color: #ffb703;
+  font-size: 1.5rem;
+}
+
+.form input {
+  box-sizing: border-box;
+  background-color: transparent;
+  padding: 0.7rem;
+  border-bottom-right-radius: 15px 3px;
+  border-bottom-left-radius: 3px 15px;
+  border: solid 0.1px transparent;
+  border-bottom: dashed 3px #ffb703;
+  font-family: "Architects Daughter", cursive;
+  font-size: 1rem;
+  color: hsla(260, 2%, 25%, 0.7);
+  width: 60%;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font-family: "Architects Daughter", cursive;
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-radius: 5px;
+  background-color: #ffb703;
+}
+button span {
+  background: #f1f5f8;
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 3px solid hsl(224, 47%, 22%);
+}
+
+li {
+  text-align: left;
+  position: relative;
+  padding: 0.5rem;
+}
